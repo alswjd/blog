@@ -40,13 +40,13 @@
 				<span class="txt1 p-b-11"> Username </span>
 					<div class="wrap-input100 validate-input m-b-36"
 						data-validate="Username is required">
-						<input class="input100" type="text" name="memberId"> <span class="focus-input100"></span>
+						<input class="input100" type="text" name="memberId" placeholder="관리자: admin, 일반회원: guest, guest2"> <span class="focus-input100"></span>
 					</div>
 					<span class="txt1 p-b-11"> Password </span>
 					<div class="wrap-input100 validate-input m-b-12"
 						data-validate="Password is required">
 						<span class="btn-show-pass"> <i class="fa fa-eye"></i>
-						</span> <input class="input100" type="password" name="memberPw"> <span class="focus-input100"></span>
+						</span> <input class="input100" type="password" name="memberPw" placeholder="1234"> <span class="focus-input100"></span>
 					</div>
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" type="submit">Login</button>
